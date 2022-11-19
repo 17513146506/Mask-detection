@@ -1,0 +1,4 @@
+采集照片：放到images文件夹下，1.yes、2.no、3.nose分别代表正常佩戴、未佩戴、漏出鼻子
+数据预处理：运行1.images_preprocess.ipynb将图片数据预处理为numpy文件，存在data目录下；
+训练模型：运行2.model_train.ipynb训练模型，模型文件在data目录下；
+压缩模型：运行4.tflite.ipynb压缩模型，压缩后的模型在data目录下，需要手动搬到树莓派rasp_lite/data目录下；
